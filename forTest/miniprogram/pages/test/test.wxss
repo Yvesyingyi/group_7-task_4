@@ -1,0 +1,26 @@
+/* pages/test/test.wxss */
+.whole{
+  width:100%;
+  display: flex;
+  flex-direction: row;
+}
+.content{
+  width: 80%;
+  display: flex;
+}
+.blank{
+  width:10%;
+  display: flex;
+}
+.word{
+  background: pink;
+  display: flex;
+}
+.picture{
+  background: rgb(196, 196, 240);
+  display: flex;
+}
+.space{
+  height:300px;
+  display: flex;
+}

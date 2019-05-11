@@ -1,0 +1,14 @@
+<!--pages/test/test.wxml-->
+<view class='whole'>
+  <view class='blank'></view>
+    <view class='content'>
+      {{item.title}}
+       <block wx:for="{{item.contents}}" wx:key="content">
+        <view class="word" wx:if="{{item.type==1}}">{{item.content}}</view>
+        <view class="picture" wx:if="{{item.type==2}}">
+          <image wx:if="{{item.type==2}}" src="{{item.content}}"></image>
+        </view>
+    </block>
+    <view class='blank'></view>
+    </view>
+</view>
